@@ -30,6 +30,17 @@ A `list` can be created with elements by enclosing a comma separated list of ele
     >>> len(heterogeneous_list)
     2
 
+A `list` can also be initialized with one value for some length:
+
+    >>> size = 5
+    >>> initialized_list = [0] * size
+    >>> print(initialized_list)
+    [0, 0, 0, 0, 0]
+    >>> size = 4
+    >>> initialized_list = [-7] * size
+    >>> print(initialized_list)
+    [-7, -7, -7, -7]
+    
 The `list` constructor can also be used to create a `list`:
 
     >>> empty_list = list()                            # Creates an empty list
